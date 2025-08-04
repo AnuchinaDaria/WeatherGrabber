@@ -8,9 +8,20 @@
 
 ## Как запустить?
 
-1. Откройте папку WeatherGrabber
-2. Выполните команду: `dotnet run`
-3. Откройте браузер: http://localhost:5000/swagger
+1. **Запустите приложение:**
+   ```
+   01-start.bat
+   ```
+
+2. **Протестируйте API:**
+   ```
+   02-test-api.bat
+   ```
+
+3. **Проверьте требования:**
+   ```
+   03-check-project.bat
+   ```
 
 ## API Endpoints (по ТЗ)
 
@@ -66,9 +77,10 @@ WeatherGrabber/
 │   ├── Data/WeatherDbContext.cs
 │   ├── Models/WeatherHistory.cs
 │   └── appsettings.json      # Настройки
-├── .gitignore                # Исключения для Git
-├── README.md                 # Эта документация
-└── WeatherGrabber.sln        # Файл решения
+├── 01-start.bat              # Запуск приложения
+├── 02-test-api.bat           # Тестирование API
+├── 03-check-project.bat      # Проверка требований
+└── README.md                 # Эта документация
 ```
 
 ## Технологии
@@ -80,37 +92,12 @@ WeatherGrabber/
 - **Background Service** - фоновая обработка
 - **Swagger** - документация API
 
-## Загрузка в GitHub
+## Что показывает этот проект?
 
-### Пошаговые действия:
-
-1. **Инициализируйте Git:**
-   ```bash
-   git init
-   ```
-
-2. **Добавьте файлы:**
-   ```bash
-   git add .
-   ```
-
-3. **Создайте первый коммит:**
-   ```bash
-   git commit -m "Initial commit: WeatherGrabber .NET project"
-   ```
-
-4. **Создайте репозиторий на GitHub:**
-   - Зайдите на https://github.com
-   - Нажмите "New repository"
-   - Назовите: `WeatherGrabber`
-   - Оставьте публичным
-   - НЕ добавляйте README, .gitignore или license
-
-5. **Подключите к GitHub:**
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/WeatherGrabber.git
-   git push -u origin main
-   ```
-
-Готово! Проект загружен в GitHub.
+- Умение работать с современными технологиями .NET
+- Понимание архитектуры приложений
+- Знание Entity Framework и баз данных
+- Умение создавать API
+- Обработка ошибок и логирование
+- Чистый и понятный код
 
